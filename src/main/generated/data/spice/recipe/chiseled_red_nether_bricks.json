@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:red_nether_brick_slab"
+    }
+  },
+  "pattern": [
+    " R ",
+    " R ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "spice:chiseled_red_nether_bricks"
+  }
+}

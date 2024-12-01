@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "pink_garnet",
+  "ingredient": {
+    "item": "spice:warped_nether_bricks"
+  },
+  "result": {
+    "id": "spice:cracked_warped_nether_bricks"
+  }
+}
