@@ -17,6 +17,10 @@
     "spice:dark_cracked_prismarine_bricks",
     "spice:dark_polished_prismarine",
     "spice:dark_prismarine_scallop",
-    "spice:dark_prismarine_tiles"
+    "spice:dark_prismarine_tiles",
+    "spice:polished_dripstone",
+    "spice:dripstone_bricks",
+    "spice:cracked_dripstone_bricks",
+    "spice:chiseled_dripstone"
   ]
 }

@@ -39,7 +39,10 @@ public class SpiceItemGroup {
                         entries.add(SpiceBlocks.DARK_PRISMARINE_SCALLOP);
                         entries.add(SpiceBlocks.DARK_PRISMARINE_TILES);
 
-
+                        entries.add(SpiceBlocks.POLISHED_DRIPSTONE);
+                        entries.add(SpiceBlocks.DRIPSTONE_BRICKS);
+                        entries.add(SpiceBlocks.CRACKED_DRIPSTONE_BRICKS);
+                        entries.add(SpiceBlocks.CHISELED_DRIPSTONE);
 
 
 

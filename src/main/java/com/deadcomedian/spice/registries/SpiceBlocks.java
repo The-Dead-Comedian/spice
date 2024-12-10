@@ -91,6 +91,25 @@ public class SpiceBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool()));
 
+
+
+    public static final Block POLISHED_DRIPSTONE = registerBlock("polished_dripstone",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block DRIPSTONE_BRICKS = registerBlock("dripstone_bricks",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block CRACKED_DRIPSTONE_BRICKS = registerBlock("cracked_dripstone_bricks",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block CHISELED_DRIPSTONE = registerBlock("chiseled_dripstone",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Spice.MOD_ID, name), block);

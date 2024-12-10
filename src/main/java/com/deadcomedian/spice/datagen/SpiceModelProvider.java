@@ -36,6 +36,11 @@ public class SpiceModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.DARK_POLISHED_PRISMARINE);
         blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.DARK_PRISMARINE_SCALLOP);
         blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.DARK_PRISMARINE_TILES);
+
+        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.POLISHED_DRIPSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.DRIPSTONE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.CRACKED_DRIPSTONE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.CHISELED_DRIPSTONE);
     }
 
     @Override
