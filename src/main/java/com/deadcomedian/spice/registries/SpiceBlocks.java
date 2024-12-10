@@ -23,6 +23,7 @@ public class SpiceBlocks {
                     .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
 
+
     public static final Block WARPED_NETHER_BRICKS = registerBlock("warped_nether_bricks",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
@@ -34,6 +35,7 @@ public class SpiceBlocks {
     public static final Block CHISELED_WARPED_NETHER_BRICKS = registerBlock("chiseled_warped_nether_bricks",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
 
 
     public static final Block POLISHED_CALCITE = registerBlock("polished_calcite",
@@ -53,7 +55,41 @@ public class SpiceBlocks {
 
 
 
+    public static final Block CRACKED_PRISMARINE_BRICKS = registerBlock("cracked_prismarine_bricks",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
 
+    public static final Block POLISHED_PRISMARINE = registerBlock("polished_prismarine",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block PRISMARINE_SCALLOP = registerBlock("prismarine_scallop",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block PRISMARINE_TILES = registerBlock("prismarine_tiles",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block DARK_PRISMARINE_BRICKS = registerBlock("dark_prismarine_bricks",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block DARK_CRACKED_PRISMARINE_BRICKS = registerBlock("dark_cracked_prismarine_bricks",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block DARK_POLISHED_PRISMARINE = registerBlock("dark_polished_prismarine",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block DARK_PRISMARINE_SCALLOP = registerBlock("dark_prismarine_scallop",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block DARK_PRISMARINE_TILES = registerBlock("dark_prismarine_tiles",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

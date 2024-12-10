@@ -29,6 +29,16 @@ public class SpiceBlockTagProvider extends FabricTagProvider.BlockTagProvider {
             .add(SpiceBlocks.CALCITE_PILLAR)
             .add(SpiceBlocks.CHISELED_CALCITE_PILLAR)
 
+            .add(SpiceBlocks.CRACKED_PRISMARINE_BRICKS)
+            .add(SpiceBlocks.POLISHED_PRISMARINE)
+            .add(SpiceBlocks.PRISMARINE_SCALLOP)
+            .add(SpiceBlocks.PRISMARINE_TILES)
+
+            .add(SpiceBlocks.DARK_PRISMARINE_BRICKS)
+            .add(SpiceBlocks.DARK_CRACKED_PRISMARINE_BRICKS)
+            .add(SpiceBlocks.DARK_POLISHED_PRISMARINE)
+            .add(SpiceBlocks.DARK_PRISMARINE_SCALLOP)
+            .add(SpiceBlocks.DARK_PRISMARINE_TILES)
 
     ;
 

@@ -8,6 +8,15 @@
     "spice:polished_calcite",
     "spice:calcite_bricks",
     "spice:calcite_pillar",
-    "spice:chiseled_calcite_pillar"
+    "spice:chiseled_calcite_pillar",
+    "spice:cracked_prismarine_bricks",
+    "spice:polished_prismarine",
+    "spice:prismarine_scallop",
+    "spice:prismarine_tiles",
+    "spice:dark_prismarine_bricks",
+    "spice:dark_cracked_prismarine_bricks",
+    "spice:dark_polished_prismarine",
+    "spice:dark_prismarine_scallop",
+    "spice:dark_prismarine_tiles"
   ]
 }
