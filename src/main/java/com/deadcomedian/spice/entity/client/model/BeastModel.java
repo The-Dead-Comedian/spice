@@ -5,16 +5,20 @@
 package com.deadcomedian.spice.entity.client.model;
 
 import com.deadcomedian.spice.entity.BeastEntity;
+import com.deadcomedian.spice.entity.client.animation.SpiceAnimations;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.SinglePartEntityModel;
 import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.util.math.MathHelper;
 
 public class BeastModel<T extends BeastEntity> extends SinglePartEntityModel<T> {
 	private final ModelPart bone;
+	private final ModelPart head;
 
 	public BeastModel(ModelPart root) {
 		this.bone = root.getChild("bone");
+		this.head = root.getChild("bone").getChild("all").getChild("body").getChild("upperbody").getChild("head");
 	}
 	public static TexturedModelData getTexturedModelData() {
 		ModelData modelData = new ModelData();
@@ -75,6 +79,18 @@ public class BeastModel<T extends BeastEntity> extends SinglePartEntityModel<T> 
 	}
 	@Override
 	public void setAngles(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+		this.getPart().traverse().forEach(ModelPart::resetTransform);
+		this.setHeadAngles(entity, netHeadYaw, headPitch, ageInTicks);
+
+		this.animateMovement(SpiceAnimations.GEITGEIST_WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
+
+	}
+	private void setHeadAngles(T entity, float headYaw, float headPitch, float animationProgress) {
+		headYaw = MathHelper.clamp(headYaw, -30.0F, 30.0F);
+		headPitch = MathHelper.clamp(headPitch, -25.0F, 45.0F);
+
+		this.head.yaw = headYaw * 0.017453292F;
+		this.head.pitch = headPitch * 0.017453292F;
 	}
 
 	@Override
