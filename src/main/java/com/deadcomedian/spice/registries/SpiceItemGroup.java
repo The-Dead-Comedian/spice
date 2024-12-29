@@ -44,6 +44,10 @@ public class SpiceItemGroup {
                         entries.add(SpiceBlocks.CRACKED_DRIPSTONE_BRICKS);
                         entries.add(SpiceBlocks.CHISELED_DRIPSTONE);
 
+                        entries.add(SpiceBlocks.GILDED_POLISHED_BLACKSTONE);
+                        entries.add(SpiceBlocks.GILDED_BLACKSTONE_BRICKS);
+                        entries.add(SpiceBlocks.GILDED_CRACKED_BLACKSTONE_BRICKS);
+                        entries.add(SpiceBlocks.GILDED_CHISELED_BLACKSTONE);
 
 
                     }).build());

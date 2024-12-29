@@ -46,6 +46,11 @@ public class SpiceBlockTagProvider extends FabricTagProvider.BlockTagProvider {
             .add(SpiceBlocks.CRACKED_DRIPSTONE_BRICKS)
             .add(SpiceBlocks.CHISELED_DRIPSTONE)
 
+            .add(SpiceBlocks.GILDED_POLISHED_BLACKSTONE)
+            .add(SpiceBlocks.GILDED_BLACKSTONE_BRICKS)
+            .add(SpiceBlocks.GILDED_CRACKED_BLACKSTONE_BRICKS)
+            .add(SpiceBlocks.GILDED_CHISELED_BLACKSTONE)
+
 
     ;
 

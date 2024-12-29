@@ -42,5 +42,11 @@ public class SpiceLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(SpiceBlocks.DRIPSTONE_BRICKS);
         addDrop(SpiceBlocks.CRACKED_DRIPSTONE_BRICKS);
         addDrop(SpiceBlocks.CHISELED_DRIPSTONE);
+
+
+        addDrop(SpiceBlocks.GILDED_POLISHED_BLACKSTONE);
+        addDrop(SpiceBlocks.GILDED_BLACKSTONE_BRICKS);
+        addDrop(SpiceBlocks.GILDED_CRACKED_BLACKSTONE_BRICKS);
+        addDrop(SpiceBlocks.GILDED_CHISELED_BLACKSTONE);
     }
 }

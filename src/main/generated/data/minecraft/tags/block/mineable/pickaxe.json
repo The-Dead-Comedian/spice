@@ -21,6 +21,10 @@
     "spice:polished_dripstone",
     "spice:dripstone_bricks",
     "spice:cracked_dripstone_bricks",
-    "spice:chiseled_dripstone"
+    "spice:chiseled_dripstone",
+    "spice:gilded_polished_blackstone",
+    "spice:gilded_blackstone_bricks",
+    "spice:gilded_cracked_blackstone_bricks",
+    "spice:gilded_chiseled_blackstone"
   ]
 }

@@ -110,6 +110,25 @@ public class SpiceBlocks {
                     .requiresTool()));
 
 
+
+    public static final Block GILDED_POLISHED_BLACKSTONE = registerBlock("gilded_polished_blackstone",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block GILDED_BLACKSTONE_BRICKS = registerBlock("gilded_blackstone_bricks",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block GILDED_CRACKED_BLACKSTONE_BRICKS = registerBlock("gilded_cracked_blackstone_bricks",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block GILDED_CHISELED_BLACKSTONE = registerBlock("gilded_chiseled_blackstone",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Spice.MOD_ID, name), block);
