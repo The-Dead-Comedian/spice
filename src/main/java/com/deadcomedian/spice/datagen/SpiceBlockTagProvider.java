@@ -18,6 +18,9 @@ public class SpiceBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
     getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
 
+            //BRICKS
+            .add(SpiceBlocks.POLISHED_SMOOTH_STONE)
+
              //BRICKS
             .add(SpiceBlocks.POLISHED_BRICKS)
 
@@ -53,8 +56,8 @@ public class SpiceBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
             //DARK PRISMARINE
             .add(SpiceBlocks.DARK_PRISMARINE_BRICKS)
-            .add(SpiceBlocks.DARK_CRACKED_PRISMARINE_BRICKS)
-            .add(SpiceBlocks.DARK_POLISHED_PRISMARINE)
+            .add(SpiceBlocks.CRACKED_DARK_PRISMARINE_BRICKS)
+            .add(SpiceBlocks.POLISHED_DARK_PRISMARINE)
             .add(SpiceBlocks.DARK_PRISMARINE_SCALLOP)
             .add(SpiceBlocks.DARK_PRISMARINE_TILES)
 
@@ -65,10 +68,10 @@ public class SpiceBlockTagProvider extends FabricTagProvider.BlockTagProvider {
             .add(SpiceBlocks.CHISELED_DRIPSTONE)
 
             //BLACKSTONE
-            .add(SpiceBlocks.GILDED_POLISHED_BLACKSTONE)
+            .add(SpiceBlocks.POLISHED_GILDED_BLACKSTONE)
             .add(SpiceBlocks.GILDED_BLACKSTONE_BRICKS)
-            .add(SpiceBlocks.GILDED_CRACKED_BLACKSTONE_BRICKS)
-            .add(SpiceBlocks.GILDED_CHISELED_BLACKSTONE)
+            .add(SpiceBlocks.CRACKED_GILDED_BLACKSTONE_BRICKS)
+            .add(SpiceBlocks.CHISELED_GILDED_BLACKSTONE)
 
 
     ;

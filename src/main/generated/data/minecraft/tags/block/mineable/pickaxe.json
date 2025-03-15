@@ -1,5 +1,6 @@
 {
   "values": [
+    "spice:polished_smooth_stone",
     "spice:polished_bricks",
     "spice:polished_packed_mud",
     "spice:polished_endstone",
@@ -20,17 +21,17 @@
     "spice:prismarine_scallop",
     "spice:prismarine_tiles",
     "spice:dark_prismarine_bricks",
-    "spice:dark_cracked_prismarine_bricks",
-    "spice:dark_polished_prismarine",
+    "spice:cracked_dark_prismarine_bricks",
+    "spice:polished_dark_prismarine",
     "spice:dark_prismarine_scallop",
     "spice:dark_prismarine_tiles",
     "spice:polished_dripstone",
     "spice:dripstone_bricks",
     "spice:cracked_dripstone_bricks",
     "spice:chiseled_dripstone",
-    "spice:gilded_polished_blackstone",
+    "spice:polished_gilded_blackstone",
     "spice:gilded_blackstone_bricks",
-    "spice:gilded_cracked_blackstone_bricks",
-    "spice:gilded_chiseled_blackstone"
+    "spice:cracked_gilded_blackstone_bricks",
+    "spice:chiseled_gilded_blackstone"
   ]
 }

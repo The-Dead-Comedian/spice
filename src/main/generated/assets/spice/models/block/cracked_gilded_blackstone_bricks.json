@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "spice:block/gilded_chiseled_blackstone"
+    "all": "spice:block/cracked_gilded_blackstone_bricks"
   }
 }

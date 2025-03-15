@@ -16,12 +16,15 @@ public class SpiceLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
 
         //RED NETHER
+        addDrop(SpiceBlocks.POLISHED_SMOOTH_STONE);
+
+        //RED NETHER
         addDrop(SpiceBlocks.POLISHED_BRICKS);
 
         //PACKED MUD
         addDrop(SpiceBlocks.POLISHED_PACKED_MUD);
 
-        //ENDSTONEA
+        //ENDSTONE
         addDrop(SpiceBlocks.POLISHED_ENDSTONE);
 
         //RED NETHER
@@ -50,8 +53,8 @@ public class SpiceLootTableProvider extends FabricBlockLootTableProvider {
 
         //DARK PRISMARINE
         addDrop(SpiceBlocks.DARK_PRISMARINE_BRICKS);
-        addDrop(SpiceBlocks.DARK_CRACKED_PRISMARINE_BRICKS);
-        addDrop(SpiceBlocks.DARK_POLISHED_PRISMARINE);
+        addDrop(SpiceBlocks.CRACKED_DARK_PRISMARINE_BRICKS);
+        addDrop(SpiceBlocks.POLISHED_DARK_PRISMARINE);
         addDrop(SpiceBlocks.DARK_PRISMARINE_SCALLOP);
         addDrop(SpiceBlocks.DARK_PRISMARINE_TILES);
 
@@ -62,9 +65,9 @@ public class SpiceLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(SpiceBlocks.CHISELED_DRIPSTONE);
 
         //BLACKSTONE
-        addDrop(SpiceBlocks.GILDED_POLISHED_BLACKSTONE);
+        addDrop(SpiceBlocks.POLISHED_GILDED_BLACKSTONE);
         addDrop(SpiceBlocks.GILDED_BLACKSTONE_BRICKS);
-        addDrop(SpiceBlocks.GILDED_CRACKED_BLACKSTONE_BRICKS);
-        addDrop(SpiceBlocks.GILDED_CHISELED_BLACKSTONE);
+        addDrop(SpiceBlocks.CRACKED_GILDED_BLACKSTONE_BRICKS);
+        addDrop(SpiceBlocks.CHISELED_GILDED_BLACKSTONE);
     }
 }

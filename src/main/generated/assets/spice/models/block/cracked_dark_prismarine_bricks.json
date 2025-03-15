@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "spice:block/dark_cracked_prismarine_bricks"
+    "all": "spice:block/cracked_dark_prismarine_bricks"
   }
 }

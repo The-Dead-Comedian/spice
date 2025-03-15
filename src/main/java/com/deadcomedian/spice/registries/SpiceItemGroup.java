@@ -15,6 +15,8 @@ public class SpiceItemGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.spice.items"))
                     .icon(() -> new ItemStack(SpiceBlocks.CHISELED_RED_NETHER_BRICKS)).entries((displayContext, entries) -> {
 
+                        entries.add(SpiceBlocks.POLISHED_SMOOTH_STONE);
+
                         entries.add(SpiceBlocks.POLISHED_BRICKS);
 
                         entries.add(SpiceBlocks.POLISHED_PACKED_MUD);
@@ -43,8 +45,8 @@ public class SpiceItemGroup {
 
                         entries.add(SpiceBlocks.CHISELD_DARK_PRISMARINE_BRICKS);
                         entries.add(SpiceBlocks.DARK_PRISMARINE_BRICKS);
-                        entries.add(SpiceBlocks.DARK_CRACKED_PRISMARINE_BRICKS);
-                        entries.add(SpiceBlocks.DARK_POLISHED_PRISMARINE);
+                        entries.add(SpiceBlocks.CRACKED_DARK_PRISMARINE_BRICKS);
+                        entries.add(SpiceBlocks.POLISHED_DARK_PRISMARINE);
                         entries.add(SpiceBlocks.DARK_PRISMARINE_SCALLOP);
                         entries.add(SpiceBlocks.DARK_PRISMARINE_TILES);
 
@@ -53,10 +55,10 @@ public class SpiceItemGroup {
                         entries.add(SpiceBlocks.CRACKED_DRIPSTONE_BRICKS);
                         entries.add(SpiceBlocks.CHISELED_DRIPSTONE);
 
-                        entries.add(SpiceBlocks.GILDED_POLISHED_BLACKSTONE);
+                        entries.add(SpiceBlocks.POLISHED_GILDED_BLACKSTONE);
                         entries.add(SpiceBlocks.GILDED_BLACKSTONE_BRICKS);
-                        entries.add(SpiceBlocks.GILDED_CRACKED_BLACKSTONE_BRICKS);
-                        entries.add(SpiceBlocks.GILDED_CHISELED_BLACKSTONE);
+                        entries.add(SpiceBlocks.CRACKED_GILDED_BLACKSTONE_BRICKS);
+                        entries.add(SpiceBlocks.CHISELED_GILDED_BLACKSTONE);
 
 
                     }).build());

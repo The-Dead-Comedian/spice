@@ -15,6 +15,9 @@ public class SpiceModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
         //BRICKS
+        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.POLISHED_SMOOTH_STONE);
+
+        //BRICKS
         blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.POLISHED_BRICKS);
 
         //PACKED MUD
@@ -50,8 +53,8 @@ public class SpiceModelProvider extends FabricModelProvider {
         //DARK PRISMARINE
         blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.CHISELD_DARK_PRISMARINE_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.DARK_PRISMARINE_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.DARK_CRACKED_PRISMARINE_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.DARK_POLISHED_PRISMARINE);
+        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.CRACKED_DARK_PRISMARINE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.POLISHED_DARK_PRISMARINE);
         blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.DARK_PRISMARINE_SCALLOP);
         blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.DARK_PRISMARINE_TILES);
 
@@ -62,10 +65,10 @@ public class SpiceModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.CHISELED_DRIPSTONE);
 
         //BLACKSTONE
-        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.GILDED_POLISHED_BLACKSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.POLISHED_GILDED_BLACKSTONE);
         blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.GILDED_BLACKSTONE_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.GILDED_CRACKED_BLACKSTONE_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.GILDED_CHISELED_BLACKSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.CRACKED_GILDED_BLACKSTONE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(SpiceBlocks.CHISELED_GILDED_BLACKSTONE);
 
 
 
