@@ -13,6 +13,26 @@ import net.minecraft.util.Identifier;
 
 public class SpiceBlocks {
 
+// BRICKS
+public static final Block POLISHED_BRICKS = registerBlock("polished_bricks",
+        new Block(AbstractBlock.Settings.create().strength(4f)
+                .requiresTool()));
+
+// PACKED MUD
+public static final Block POLISHED_PACKED_MUD = registerBlock("polished_packed_mud",
+        new Block(AbstractBlock.Settings.create().strength(4f)
+                .requiresTool().sounds(BlockSoundGroup.PACKED_MUD)));
+
+// ENDSTONE
+
+    public static final Block POLISHED_ENDSTONE = registerBlock("polished_endstone",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+// RED NETHER BRICKS
+public static final Block POLISHED_RED_NETHER_BRICKS = registerBlock("polished_red_nether_bricks",
+        new Block(AbstractBlock.Settings.create().strength(4f)
+                .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
     public static final Block CRACKED_RED_NETHER_BRICKS = registerBlock("cracked_red_nether_bricks",
             new Block(AbstractBlock.Settings.create().strength(4f)
@@ -22,7 +42,10 @@ public class SpiceBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
-
+// WARPED NETHER BRICKS
+public static final Block POLISHED_WARPED_NETHER_BRICKS = registerBlock("polished_warped_nether_bricks",
+        new Block(AbstractBlock.Settings.create().strength(4f)
+                .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
     public static final Block WARPED_NETHER_BRICKS = registerBlock("warped_nether_bricks",
             new Block(AbstractBlock.Settings.create().strength(4f)
@@ -36,8 +59,7 @@ public class SpiceBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
-
-
+// CALCITE
     public static final Block POLISHED_CALCITE = registerBlock("polished_calcite",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
@@ -53,7 +75,10 @@ public class SpiceBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
-
+//PRISMARINE
+    public static final Block CHISELED_PRISMARINE_BRICKS = registerBlock("chiseled_prismarine_bricks",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
 
     public static final Block CRACKED_PRISMARINE_BRICKS = registerBlock("cracked_prismarine_bricks",
             new Block(AbstractBlock.Settings.create().strength(4f)
@@ -70,6 +95,11 @@ public class SpiceBlocks {
     public static final Block PRISMARINE_TILES = registerBlock("prismarine_tiles",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool()));
+
+// DARK PRISMARINE
+public static final Block CHISELD_DARK_PRISMARINE_BRICKS = registerBlock("chiseled_dark_prismarine_bricks",
+        new Block(AbstractBlock.Settings.create().strength(4f)
+                .requiresTool()));
 
     public static final Block DARK_PRISMARINE_BRICKS = registerBlock("dark_prismarine_bricks",
             new Block(AbstractBlock.Settings.create().strength(4f)

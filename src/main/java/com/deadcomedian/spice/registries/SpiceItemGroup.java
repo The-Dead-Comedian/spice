@@ -15,9 +15,17 @@ public class SpiceItemGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.spice.items"))
                     .icon(() -> new ItemStack(SpiceBlocks.CHISELED_RED_NETHER_BRICKS)).entries((displayContext, entries) -> {
 
+                        entries.add(SpiceBlocks.POLISHED_BRICKS);
+
+                        entries.add(SpiceBlocks.POLISHED_PACKED_MUD);
+
+                        entries.add(SpiceBlocks.POLISHED_ENDSTONE);
+
+                        entries.add(SpiceBlocks.POLISHED_RED_NETHER_BRICKS);
                         entries.add(SpiceBlocks.CHISELED_RED_NETHER_BRICKS);
                         entries.add(SpiceBlocks.CRACKED_RED_NETHER_BRICKS);
 
+                        entries.add(SpiceBlocks.POLISHED_WARPED_NETHER_BRICKS);
                         entries.add(SpiceBlocks.WARPED_NETHER_BRICKS);
                         entries.add(SpiceBlocks.CRACKED_WARPED_NETHER_BRICKS);
                         entries.add(SpiceBlocks.CHISELED_WARPED_NETHER_BRICKS);
@@ -27,12 +35,13 @@ public class SpiceItemGroup {
                         entries.add(SpiceBlocks.CALCITE_PILLAR);
                         entries.add(SpiceBlocks.CHISELED_CALCITE_PILLAR);
 
+                        entries.add(SpiceBlocks.CHISELED_PRISMARINE_BRICKS);
                         entries.add(SpiceBlocks.CRACKED_PRISMARINE_BRICKS);
                         entries.add(SpiceBlocks.POLISHED_PRISMARINE);
                         entries.add(SpiceBlocks.PRISMARINE_SCALLOP);
                         entries.add(SpiceBlocks.PRISMARINE_TILES);
 
-
+                        entries.add(SpiceBlocks.CHISELD_DARK_PRISMARINE_BRICKS);
                         entries.add(SpiceBlocks.DARK_PRISMARINE_BRICKS);
                         entries.add(SpiceBlocks.DARK_CRACKED_PRISMARINE_BRICKS);
                         entries.add(SpiceBlocks.DARK_POLISHED_PRISMARINE);

@@ -1,7 +1,12 @@
 {
   "values": [
+    "spice:polished_bricks",
+    "spice:polished_packed_mud",
+    "spice:polished_endstone",
+    "spice:polished_red_nether_bricks",
     "spice:chiseled_red_nether_bricks",
     "spice:cracked_red_nether_bricks",
+    "spice:polished_warped_nether_bricks",
     "spice:warped_nether_bricks",
     "spice:cracked_warped_nether_bricks",
     "spice:chiseled_warped_nether_bricks",
@@ -9,6 +14,7 @@
     "spice:calcite_bricks",
     "spice:calcite_pillar",
     "spice:chiseled_calcite_pillar",
+    "spice:chiseled_prismarine_bricks",
     "spice:cracked_prismarine_bricks",
     "spice:polished_prismarine",
     "spice:prismarine_scallop",
